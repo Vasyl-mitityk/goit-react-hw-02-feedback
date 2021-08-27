@@ -7,3 +7,6 @@
    install --save gh-pages, \
    "scripts": { "predeploy": "npm run build", "deploy": "gh-pages -d build",}, npm
    run deploy (GitHub Pages Deployment)
+4. npm install --save prop-types (prop-types щоб вони працювали обовязково в
+   папку js--- import PropTypes from 'prop-types';)
+5. @import-normalize; установка нормолайза
